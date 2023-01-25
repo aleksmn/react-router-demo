@@ -12,8 +12,9 @@ const App = () => {
   return (
     <div className="content">
 
-      <NavBar />
+      
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path="/products" element={<Products/>} />
           <Route path="/posts" element={<Posts/>} />
