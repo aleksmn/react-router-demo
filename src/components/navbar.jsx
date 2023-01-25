@@ -10,7 +10,7 @@ const NavBar = () => {
         <a href="/products">Products</a>
       </li>
       <li>
-        <a href="/posts/2018/06">Posts</a>
+        <a href="/posts/">Posts</a>
       </li>
       <li>
         <a href="/admin">Admin</a>
